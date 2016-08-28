@@ -1,0 +1,58 @@
+.headImg {}
+/*头像区域 开始*/
+.touxiang {
+    width:100%;
+    display:inline-block;
+    text-align: center;
+    margin-top: 1.2rem;
+}
+.touxiang .touxiangblock {
+    margin:0 auto;
+    width:65px;
+    height:65px;
+    border:1px solid #fff;
+    border-radius: 50%;
+    background-color: gainsboro;
+}
+/*登录信息*/
+.touxiang .login-p {
+    margin-top:10px;
+    position: relative;
+    color:white;
+    height:25px;
+    line-height: 20px;
+}
+.touxiang .login-name {
+    width:100%;
+}
+#account-hui::before {
+    height:0;
+}
+#account-hui{
+    margin-top:0;
+    color:#FFFFFF;
+}
+/*加入社区*/
+.touxiang .join-sheq {
+    position: absolute;
+    top:0;
+    right:20%;
+    background-color: #F0AD4E;
+    border-radius: 10px;
+    width:70px;
+    font-size: 12px;
+}
+.touxiang .sys-setting {
+    position: absolute;
+    top:0.8rem;
+    right:0.8rem;
+}
+/* ---------- 头像区域 结束*/
+/* ---------- 客服*/
+.customer-service{
+    text-align: center;
+    height:35px;
+    line-height:35px;
+    background-color: #FFFFFF;
+    color:#DD524D;
+}
